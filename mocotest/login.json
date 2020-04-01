@@ -1,0 +1,16 @@
+[
+  {
+    "description": "post请求",
+    "request": {
+      "uri": "/v1/login",
+      "method": "post",
+      "json": {
+        "userName": "lccui",
+        "password": "123"
+      }
+    },
+    "response": {
+     "text": "false"
+    }
+  }
+]

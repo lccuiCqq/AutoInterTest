@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="登录系统套件">
+    <test name="login用例">
+        <classes>
+            <class name="com.test.testng.cases.LoginTest">
+                <methods>
+                    <include name="LoginTrue"/>
+                    <include name="LoginFalse"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+   <!-- <test name="pay">
+        <classes>
+            <class name="com.test.testng.suite.LoginTest"></class>
+            <class name="com.test.testng.suite.SuiteConfig"></class>
+        </classes>
+    </test>
+    -->
+
+    <listeners>
+       <!-- <listener class-name="com.vimalselvam.testng.listener.ExtentTestNgFormatter"/>-->
+        <listener class-name="com.test.testng.suite.ExtentTestNGIReporterListener"/>
+    </listeners>
+</suite>
